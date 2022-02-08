@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        
+        /* Background Image */
+        body{
+            background-image: url("https://thumbs.dreamstime.com/b/doctor-stethoscope-hand-hospital-background-gown-94227568.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+        }
+         
+        /* Transparent Layer */
+        .a{
+           background-color: rgba(77, 87, 85, 0.7);
+           width: 50%;
+           border: 2px solid rgb(255, 255, 255);
+           border-radius: 20px;
+           align-items: center;
+           margin-top: 50px;
+        }
+        
+        /* Textbox Styling */
+        .b{
+           background-color: rgba(255, 255, 255, 0.5);
+           color: black;
+           width: 70%;
+           padding: 10px 10px;
+           margin: 8px 0;
+           border: 1px solid white;
+           border-radius: 4px;
+        } 
+        
+        /* Heading Styling */
+        h1{
+            color: rgb(165, 16, 5); 
+            text-align: center;
+            text-decoration: solid;
+            font-size: 70px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
+        
+        /* File And Radio */
+        .c{
+            color: rgb(0, 0, 0);
+            word-spacing: 2px;
+            font-family: 'Courier New', Courier, monospace;
+            padding-right: 240px;
+        }
+        .d{background-color: rgba(255, 255, 255, 0.5);
+            color: black;
+            width: 65%;
+            padding: 5px 5px;
+            margin-left: 20px;
+            border: 1px solid white;
+            border-radius: 4px;
+
+        }
+         /* Button Styling */
+        .button{
+            color: rgb(0, 0, 0);
+            background-color: dodgerblue;
+            width: 30%;
+            padding: 11px 11px;
+            margin: 8px 0;
+            border: 1px solid rgb(0, 0, 0);
+            border-radius: 4px;
+           
+
+        }
+ 
+         /* Button Hover Styling */
+        input[type=button]:hover {
+           background-color: green;
+
+        }
+
+        input[type=reset]:hover {
+            background-color: red;
+        }
+        .gender{
+            margin-left: 35px;
+        }
+
+    </style>
+</head>
+<body>
+    <center>
+        <div class="a">
+            <form action="" method="get">
+             <h1>SIGN UP</h1>
+              <center>
+              <input type="text" class="b" placeholder="Username">
+              <input type="text" class="b" placeholder="Email">
+              <input type="password" class="b" placeholder="Password">
+              <input type="password" class="b" placeholder="Confirm Password">
+              <input type="number" class="b" placeholder="Age">
+              <input type="datetime-local" class="b" placeholder="Date Of Birth"><br><br>
+              <div class="c">
+              <input type="file"><br><br>
+              <label for="Gender" class="gender"><b>Gender</b></label>
+              <input type="radio"  id="gender" name="gender" value="male">Male<input type="radio"  id="gender" name="gender" value="female">Female<input type="radio"  id="gender" name="gender" value="others">Others<br><br>
+              </div>
+              <label for="state" style="font-weight: bold;">State</label>
+              <select name="State" id="State" class="d"><option value="default">select</option>
+                <option value="1">Kerala</option>
+                <option value="2">Tamil Nadu</option>
+                <option value="3">Andhra Pradesh</option>
+                <option value="4">Telangana</option>
+                <option value="5">Goa</option>
+                <option value="6">Maharashtra</option>
+                <option value="7">Gujarath</option>
+                <option value="8">West Bengal</option>
+              </select><br><br><br><br>
+              <input class="button" type="button" value="SIGNUP"><br>
+              <input class="button" type="reset"  type="button1" value="RESET"><br><br><br><br>
+         </center>  
+         </form>
+         </div>
+        </center>
+</body>
+</html>

@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lisa Hospital</title>
+    <link rel="stylesheet" href="{% static 'css/style1.css' %}">
+    <style>
+        body{
+            background-image: url("{% static 'images/hospitalbg1.jpg' %}");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lisa Hospital</h1>
+    <div class="loginpage">
+        <form action="" method="get"> 
+            <h1 class="a1">LOGIN</h1>
+            <center>
+            <input class="b" type="text" placeholder="Email address or Phone number"><br><br>
+            <input class="b" type="password" placeholder="Password"><br><br></center>
+            <div class="c">
+            <input type="checkbox" checked>Remember me?<br><br><br>
+           <center> <input  class="button" type="button" value="LOGIN"></center><br>
+   <center><h2>Not a member? <a href="/static/html/signup.html"> Sign Up</a></h2></center>
+            
+
+    </div>
+
+</body>
+</html>

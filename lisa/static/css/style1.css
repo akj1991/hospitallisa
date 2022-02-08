@@ -1,0 +1,45 @@
+
+h1{
+    color: rgb(7, 63, 165);
+    text-align: left;
+    font-size: 75px;
+    margin-top: 1px;
+   padding: 10px;
+    }
+.loginpage{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    height: 400px;
+    width: 300px;
+    margin-left:auto;
+    background-color: rgb(189, 189, 121, 0.7);
+    margin-top: 2px;
+}
+.a1{
+    text-align: center;
+    font-size: 50px;
+    
+}
+.b{
+    width: 80%;
+    height: 320%;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+.button{
+    padding: 12px 20px;
+    background-color:dodgerblue;
+    color: white;
+    width: 35%;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+input[type=button]:hover {
+    background-color: green;
+  
+   }
+h2{
+font-size: 20px;
+}
